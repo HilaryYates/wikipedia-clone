@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  min-width: 1150px;
+}
+
+.main {
+  /* border: 1px solid blue; */
+  margin-top: 5%;
+}
+
+.page-link-container {
+  display: flex;
+  justify-content: center;
+}
+
+.page-link:hover {
+  color: #fff;
+  background-color: #a1b3f3;
+}
+
+.page-link,
+.page-link:visited {
+  text-decoration: none;
+  padding-bottom: 3px;
+  font-size: 17.5px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  position: fixed;
+  /* top: 10%;
+  left: 27%;
+  height: 250px; */
+  object-fit: cover;
+  width: 35%;
+  /* border: 1px solid red; */
+  /* margin-top: 60px; */
+}
+
+.input {
+  margin-top: 22%;
+  margin-left: 44%;
+  margin-bottom: 2%;
+}
+
+input:autofill {
+  background: #fff; /* or any other */
+}
+
+.search-img {
+  height: 14px;
+  padding-left: 5px;
+}
+
